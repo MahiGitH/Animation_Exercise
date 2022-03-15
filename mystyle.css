@@ -1,0 +1,39 @@
+body {
+  
+  background-color:black;
+  
+}
+ 
+.quotes {
+
+  animation: mymove 5s infinite;
+  position: relative;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+.ins{
+  background-color: blueviolet;
+  text-align: center;
+  padding: left 25px;
+
+}
+.oquote{
+  width: 150px;
+  height: 100px;
+  background-color: green;
+  animation-timing-function: linear;
+}
+.Pquote{
+  width: 150px;
+  height: 163px;
+  background-color: yellow;
+  animation-timing-function: ease-in-out;
+}
+.mquote{
+  width: 150px;
+  height: 125px;
+  background-color: red;
+  animation-timing-function: ease-out;
+}
